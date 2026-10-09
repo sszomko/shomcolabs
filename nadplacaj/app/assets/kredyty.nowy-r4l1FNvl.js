@@ -1,0 +1,1 @@
+import{i as e,x as t}from"./kit-0LzogKYX.js";import{r as n}from"./loan-form-Cqxd19ct.js";var r=t(),i=()=>(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e,{title:`Nowy kredyt`,subtitle:`Wpisz parametry z umowy kredytowej.`}),(0,r.jsx)(n,{})]});export{i as component};
