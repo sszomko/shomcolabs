@@ -1,0 +1,1 @@
+import{d as e}from"./index-DhFymhGB.js";import{t}from"./legal-page-BZnKUvdD.js";var n=e(),r=()=>(0,n.jsx)(t,{product:`nadplacaj`,kind:`privacy`});export{r as component};
