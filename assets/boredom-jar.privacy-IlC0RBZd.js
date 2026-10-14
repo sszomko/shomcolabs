@@ -1,0 +1,1 @@
+import{d as e}from"./index-DImiY_DD.js";import{t}from"./legal-page-CRKzMO4J.js";var n=e(),r=()=>(0,n.jsx)(t,{product:`boredom-jar`,kind:`privacy`});export{r as component};
