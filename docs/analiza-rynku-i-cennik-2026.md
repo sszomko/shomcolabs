@@ -38,7 +38,7 @@
 | Katalog produktów lub usług | **2 490 zł** | Do 20 pozycji, kategorie, wyszukiwanie, formularz; bez płatności |
 | Sklep internetowy | **3 490 zł** | Platforma gotowa, do 10 produktów, proste płatności i dostawa |
 | Aplikacja mobilna Android | **4 990 zł** | MVP do 4 ekranów, dane lokalne, Android; bez backendu i kont |
-| Chatbot AI / automatyzacja | **990 zł** | Jeden prosty przepływ; **bot AI z API od 1 990 zł** |
+| Chatbot AI / automatyzacja | **1 990 zł** | Prosty chatbot FAQ AI na dostarczonych treściach lub automatyzacja jednego procesu; jedna integracja i testy |
 | Dedykowany system internetowy | **7 900 zł** | Jeden główny proces, logowanie, prosta baza danych i panel |
 
 **Wszystkie kwoty są propozycją ShomCoLabs**, a nie obserwowanymi medianami ani „ceną rynkową” z platformy. Kwota końcowa, sposób rozliczenia i warunki podatkowe powinny być jawnie potwierdzone w ofercie.
@@ -48,7 +48,7 @@
 2. **2 490 zł za katalog:** oferta bez płatności; nie porównywać z portalem marketplace, panelem zaawansowanym lub katalogiem 1000 produktów. Przykład własnego projektu PrimeMoto jest argumentem portfolio, nie gwarancją identycznego zakresu.
 3. **3 490 zł za sklep:** przy wykorzystaniu istniejącego silnika WooCommerce/Shopify, bez autorskiego checkoutu, własnego ERP i dużego importu.
 4. **4 990 zł za Android:** tylko niewielkie MVP; backend, konta, płatności, subskrypcje, prywatność, publikacja i analityka mogą istotnie podnieść cenę.
-5. **990 zł za automatyzację:** jedna prosta integracja na gotowych narzędziach; osobny próg dla bota z AI. Należy jawnie rozróżniać jednorazowe wdrożenie od kosztu wywołań API.
+5. **1 990 zł za chatbota AI / automatyzację:** jedno niewielkie wdrożenie z jedną integracją na sprawdzonych narzędziach. Należy jawnie rozróżniać jednorazowe wdrożenie od miesięcznych kosztów API i automatyzacji.
 6. **7 900 zł za system:** minimalny pojedynczy proces. System z wieloma rolami, złożoną autoryzacją, integracjami, wysoką dostępnością lub poufnymi danymi wymaga osobnego budżetu, często wielokrotnie większego.
 
 ## 3. Wpływ automatyzacji na jednostkową ekonomię
@@ -61,7 +61,7 @@ Przykładowa **hipoteza operacyjna**, nie wynik badania czasów pracy: wykorzyst
 | Katalog | 23 h | ok. 108 zł |
 | Sklep | 35 h | ok. 100 zł |
 | Android | 50 h | ok. 100 zł |
-| Prosta automatyzacja | 10 h | 99 zł |
+| Chatbot AI / automatyzacja | 20 h | ok. 100 zł |
 | System | 80 h | ok. 99 zł |
 
 **Warunek opłacalności:** jeżeli zakres nie mieści się w budżecie czasu — nie sprzedawać go za cenę „od”. Przy wycenie indywidualnej doliczać zarządzanie zmianami, integracje, ryzyko, poprawki i bufor, a nie tylko czas generowania kodu. Prawdziwe oszczędności pochodzą z powtarzalnego procesu, nie wyłącznie z AI.
