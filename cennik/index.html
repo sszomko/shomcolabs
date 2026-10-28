@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Cennik usług ShomCoLabs: strony internetowe, katalogi, sklepy, aplikacje Android, automatyzacje AI i dedykowane systemy. Bezpłatna indywidualna wycena.">
+<meta name="theme-color" content="#242b29">
+<link rel="icon" href="/favicon.png" type="image/png">
+<link rel="canonical" href="https://shomcolabs.com/cennik/">
+<link rel="alternate" hreflang="pl" href="https://shomcolabs.com/cennik/">
+<link rel="alternate" hreflang="en" href="https://shomcolabs.com/en/pricing/">
+<link rel="stylesheet" href="/assets/styles-D2ZASzrV.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&family=Sora:wght@400;500;600;700;800&display=swap">
+<title>Cennik | ShomCoLabs</title>
+<style>
+.pricing-page{font-family:Manrope,system-ui,sans-serif;background:var(--background,#232927);color:var(--foreground,#f5f5f4);min-height:100vh}
+.pricing-page a{text-decoration:none}.pricing-page a:focus-visible,.pricing-page summary:focus-visible{outline:2px solid var(--primary,#a3e9c1);outline-offset:4px}
+.pricing-header{border-bottom:1px solid var(--border,#3c4a46);background:var(--header-surface,#202824);position:sticky;top:0;z-index:10}
+.pricing-nav{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:80px}
+.pricing-logo{color:var(--foreground,#fff);font:700 24px Sora,sans-serif;white-space:nowrap}
+.pricing-logo strong,.pricing-logo b{color:var(--primary,#99dfbe)}
+.pricing-links{display:flex;gap:6px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+.pricing-links a{font-size:12px;font-weight:600;color:var(--muted-foreground,#c4c8c4);padding:10px 12px;border-radius:6px;transition:background .2s,color .2s}
+.pricing-links a:hover,.pricing-links a[aria-current="page"]{color:var(--foreground,#fff);background:var(--accent,#343e3b)}
+.pricing-links .lang-switch{font:500 11px "IBM Plex Mono",monospace;border:1px solid var(--border,#405149)}
+.pricing-hero{padding:90px 0 62px;border-bottom:1px solid var(--subtle-line,#334039);position:relative;overflow:hidden}
+.pricing-hero:after{content:"";position:absolute;right:-220px;top:-250px;width:580px;height:580px;border:1px solid var(--border,#405149);border-radius:50%;pointer-events:none;opacity:.55}
+.pricing-eyebrow{font:600 11px "IBM Plex Mono",monospace;color:var(--primary,#9fe4c2);letter-spacing:.14em}
+.pricing-hero h1{font:600 clamp(36px,5vw,64px)/1.15 Sora,sans-serif;letter-spacing:-.05em;margin:24px 0 22px;max-width:820px}
+.pricing-hero p{font-size:17px;line-height:1.8;color:var(--muted-foreground,#bec7c2);max-width:690px}
+.pricing-section{padding:74px 0 70px}
+.pricing-head{max-width:830px;margin-bottom:26px}.pricing-head h2{font:600 clamp(25px,3vw,35px)/1.25 Sora,sans-serif;letter-spacing:-.03em;margin:12px 0 12px}
+.pricing-head p,.pricing-note{color:var(--muted-foreground,#bec7c2);line-height:1.75;font-size:14px}
+.pricing-scroll{overflow-x:auto;border:1px solid var(--border,#405149);border-radius:12px;background:var(--card,#2e3632)}
+.pricing-table{border-collapse:collapse;min-width:720px;width:100%;table-layout:fixed}
+.pricing-table thead th{padding:20px 24px;text-align:left;background:var(--secondary,#35443d);color:var(--muted-foreground,#c3cec7);font:600 11px "IBM Plex Mono",monospace;text-transform:uppercase;letter-spacing:.07em}
+.pricing-table thead th:first-child{width:31%}.pricing-table thead th:nth-child(2){width:48%}.pricing-table thead th:last-child{width:21%;text-align:right}
+.pricing-table tbody th,.pricing-table tbody td{text-align:left;vertical-align:middle;padding:25px 24px;border-top:1px solid var(--border,#405149);font-size:13px;line-height:1.7}
+.pricing-table tbody th{font-weight:700;font-size:15px}.pricing-table tbody td:nth-child(2){color:var(--muted-foreground,#bec7c2)}
+.pricing-table tbody tr:hover{background:var(--accent,#35453f)}
+.pricing-service{display:flex;gap:12px;align-items:baseline}
+.pricing-index{color:var(--primary,#9fe4c2);font:500 11px "IBM Plex Mono",monospace}
+.pricing-table .pricing-amount{text-align:right;white-space:nowrap;color:var(--foreground,#fff)}
+.pricing-amount span{font:700 clamp(21px,2.2vw,28px) Sora,sans-serif;letter-spacing:-.04em}
+.pricing-amount small{font:500 12px "IBM Plex Mono",monospace;color:var(--primary,#9fe4c2);margin-left:6px}
+.pricing-notes{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:20px 0 0}
+.pricing-note{padding:18px 20px;border:1px solid var(--border,#405149);border-radius:8px;background:var(--card,#2e3632);margin:0}
+.pricing-note strong{color:var(--foreground,#fff)}
+.pricing-feature{border-top:1px solid var(--subtle-line,#334039);border-bottom:1px solid var(--subtle-line,#334039);padding:65px 0}
+.pricing-featurebox{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);gap:45px;align-items:center}
+.pricing-feature h2,.pricing-contact h2{font:600 clamp(25px,3vw,37px)/1.3 Sora,sans-serif;letter-spacing:-.035em;margin:15px 0}
+.pricing-feature p,.pricing-contact p{font-size:15px;line-height:1.85;color:var(--muted-foreground,#c3c9c5)}
+.pricing-faq-wrap{padding:64px 0;border-bottom:1px solid var(--subtle-line,#334039)}
+.pricing-faq{border-bottom:1px solid var(--border,#405149);padding:18px 0}
+.pricing-faq summary{cursor:pointer;font-weight:700;font-size:14px}.pricing-faq p{font-size:14px;color:var(--muted-foreground,#c3c9c5);line-height:1.8;margin:14px 0 2px;max-width:830px}
+.pricing-contact{padding:64px 0 95px}.pricing-contact-wrap{display:flex;justify-content:space-between;align-items:center;gap:35px}
+.pricing-contact-copy{max-width:680px}.pricing-cta{display:inline-flex;justify-content:center;align-items:center;text-align:center;min-height:48px;background:var(--primary,#9fe4c2);color:var(--primary-foreground,#173328)!important;border-radius:6px;padding:13px 22px;font-size:13px;font-weight:800;white-space:nowrap;transition:transform .2s}
+.pricing-cta:hover{transform:translateY(-2px)}
+.pricing-footer{border-top:1px solid var(--border,#405149);padding:30px 0 40px;font-size:12px;color:var(--muted-foreground,#c3c9c5)}
+.pricing-footrow{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
+@media(max-width:780px){.pricing-nav{align-items:flex-start;flex-direction:column;padding:18px 0;gap:12px}.pricing-links{justify-content:flex-start;margin-left:-12px}.pricing-links a{padding:8px 11px}.pricing-hero{padding:58px 0 45px}.pricing-section{padding:45px 0}.pricing-notes{grid-template-columns:1fr}.pricing-featurebox{grid-template-columns:1fr;gap:14px}.pricing-contact-wrap{flex-direction:column;align-items:flex-start}.pricing-cta{white-space:normal}.pricing-hero:after{display:none}}
+@media(max-width:550px){.pricing-page .site-container{width:calc(100% - 36px)}.pricing-hero h1{font-size:36px}.pricing-hero p{font-size:15px}.pricing-table{min-width:645px}.pricing-table thead th,.pricing-table tbody th,.pricing-table tbody td{padding:17px 16px}.pricing-amount span{font-size:20px}}
+</style>
+</head>
+<body class="pricing-page">
+<header class="pricing-header"><div class="site-container pricing-nav"><a class="pricing-logo" href="/" aria-label="ShomCoLabs">ShomCo<strong>Labs</strong><b>.</b></a><nav class="pricing-links" aria-label="Nawigacja główna">
+<a href="/">Strona główna</a><a href="/#aplikacje">Aplikacje</a><a href="/cennik/" aria-current="page">Cennik</a><a href="/privacy/">Polityka prywatności</a><a href="mailto:support@shomcolabs.com">Kontakt</a><a class="lang-switch" href="/en/pricing/" aria-label="Switch to English">EN</a>
+</nav></div></header>
+<main>
+<section class="pricing-hero"><div class="site-container"><div class="pricing-eyebrow">USŁUGI / PRZEJRZYSTY CENNIK</div><h1>Wiesz, od czego zaczynamy.</h1><p>Konkretny punkt wyjścia dla Twojego projektu. Poznaj minimalny budżet, zanim omówimy szczegóły.</p></div></section>
+<section class="pricing-section" id="cennik"><div class="site-container"><div class="pricing-head"><div class="pricing-eyebrow">CENNIK / 2026</div><h2>Ile kosztuje Twój projekt?</h2><p>Sześć rodzajów projektów i przejrzyste zasady. Każda kwota to cena początkowa za jasno określony, podstawowy zakres.</p></div>
+<div class="pricing-scroll" role="region" tabindex="0" aria-label="Tabela cen projektów"><table class="pricing-table"><thead><tr><th scope="col">Rodzaj projektu</th><th scope="col">Co obejmuje wariant podstawowy</th><th scope="col">Cena od</th></tr></thead><tbody><tr><th scope="row"><div class="pricing-service"><span class="pricing-index">01</span><span>Strona internetowa / wizytówka</span></div></th><td>One-page do 5 sekcji, wersja mobilna, kontakt, podstawowe SEO i publikacja.</td><td class="pricing-amount"><span>990</span><small>zł</small></td></tr>
+<tr><th scope="row"><div class="pricing-service"><span class="pricing-index">02</span><span>Katalog produktów lub usług</span></div></th><td>Do 20 pozycji, kategorie, wyszukiwarka i formularz zapytania. Bez koszyka i płatności.</td><td class="pricing-amount"><span>2 490</span><small>zł</small></td></tr>
+<tr><th scope="row"><div class="pricing-service"><span class="pricing-index">03</span><span>Sklep internetowy</span></div></th><td>Wdrożenie na sprawdzonej platformie, do 10 produktów, podstawowe płatności i dostawa.</td><td class="pricing-amount"><span>3 490</span><small>zł</small></td></tr>
+<tr><th scope="row"><div class="pricing-service"><span class="pricing-index">04</span><span>Aplikacja mobilna Android</span></div></th><td>Proste MVP do 4 ekranów, zapis lokalny, testy na Androidzie. Bez backendu i kont.</td><td class="pricing-amount"><span>4 990</span><small>zł</small></td></tr>
+<tr><th scope="row"><div class="pricing-service"><span class="pricing-index">05</span><span>Chatbot AI / automatyzacja</span></div></th><td>Jedna prosta automatyzacja (np. formularz → analiza → e-mail). Chatbot AI z API od 1 990 zł.</td><td class="pricing-amount"><span>990</span><small>zł</small></td></tr>
+<tr><th scope="row"><div class="pricing-service"><span class="pricing-index">06</span><span>Dedykowany system internetowy</span></div></th><td>MVP z bazą danych, logowaniem i jednym głównym procesem biznesowym.</td><td class="pricing-amount"><span>7 900</span><small>zł</small></td></tr></tbody></table></div>
+<p class="pricing-note" style="margin-top:17px">Każdy projekt wyceniam indywidualnie po krótkim omówieniu potrzeb. Poniżej znajdują się ceny orientacyjne, a nie obietnica wykonania dowolnej funkcjonalności za podaną kwotę.</p>
+<div class="pricing-notes"><p class="pricing-note"><strong>Koszty dodatkowe:</strong> Koszty zewnętrzne (domena, hosting, licencje, API, prowizje operatorów płatności i konta w sklepach z aplikacjami) nie są wliczone, chyba że ustalimy inaczej. W podstawowym zakresie przewidziana jest jedna runda poprawek. Dodatkowe funkcje, integracje, przygotowanie treści i utrzymanie wyceniane są osobno.</p><p class="pricing-note"><strong>Rozliczenie:</strong> Ceny w PLN za wskazany minimalny zakres usługi. Ostateczną kwotę do zapłaty i sposób rozliczenia potwierdzam w indywidualnej ofercie.</p></div>
+</div></section>
+<section class="pricing-feature"><div class="site-container pricing-featurebox"><div><div class="pricing-eyebrow">JAK PRACUJĘ</div><h2>Sprytne narzędzia. Odpowiedzialność po mojej stronie.</h2></div><p>Korzystam z gotowych komponentów, nowoczesnych narzędzi i automatyzacji, by skrócić powtarzalną pracę. Kod, bezpieczeństwo i działanie rozwiązania wymagają jednak sprawdzenia oraz testów. Dzięki temu ograniczam koszty bez rezygnowania z kontroli jakości.</p></div></section>
+<section class="pricing-faq-wrap"><div class="site-container"><div class="pricing-head"><div class="pricing-eyebrow">FAQ</div><h2>Warto wiedzieć</h2></div><details class="pricing-faq"><summary>Dlaczego ceny są „od”?</summary><p>Wizytówka na jednej stronie i wielojęzyczna witryna z CMS-em wymagają innego nakładu pracy. Cena początkowa dotyczy wyłącznie opisanego wariantu podstawowego.</p></details><details class="pricing-faq"><summary>Czy cena może wzrosnąć?</summary><p>Tak, jeśli rozszerzysz zakres. Przed rozpoczęciem otrzymasz zakres prac, termin i wycenę. Bez uzgodnienia nie rozszerzam zakresu.</p></details><details class="pricing-faq"><summary>Czy wycena jest naprawdę darmowa?</summary><p>Tak. Wyślij opis projektu, a otrzymasz wstępne oszacowanie zweryfikowane przez człowieka.</p></details></div></section>
+<section class="pricing-contact"><div class="site-container pricing-contact-wrap"><div class="pricing-contact-copy"><div class="pricing-eyebrow">POROZMAWIAJMY</div><h2>Bezpłatna wycena projektu.</h2><p>Opisz cel, najważniejsze funkcje i przybliżony budżet. Potwierdzę zakres oraz cenę jeszcze przed rozpoczęciem realizacji.</p></div><a class="pricing-cta" href="mailto:support@shomcolabs.com?subject=ShomCoLabs%20%E2%80%93%20bezp%C5%82atna%20wycena%20projektu">Poproś o bezpłatną wycenę ↗</a></div></section>
+</main>
+<footer class="pricing-footer"><div class="site-container pricing-footrow"><span>Niezależne studio cyfrowe. © 2026 ShomCoLabs.</span><span><a href="/privacy/">Polityka prywatności</a> · <a href="mailto:support@shomcolabs.com">support@shomcolabs.com</a></span></div></footer>
+</body></html>
